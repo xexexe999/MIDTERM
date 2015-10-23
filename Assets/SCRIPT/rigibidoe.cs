@@ -8,6 +8,8 @@ public class rigibidoe : MonoBehaviour
     Vector3 inputVector;
     // Use this for initialization
     public Transform myCamera;
+
+
     void Start()
     {
         rbody = GetComponent<Rigidbody>();
@@ -20,8 +22,11 @@ public class rigibidoe : MonoBehaviour
 
         float mouseX = Input.GetAxis("Mouse X");
         float mouseY = Input.GetAxis("Mouse Y");
-        transform.Rotate(0f, mouseX, 0f); myCamera.Rotate(0f, 0f, 0f);
+        transform.Rotate(0f, mouseX, 0f);
+        myCamera.Rotate(-mouseY, 0f, 0f);
     }
+
+
 
 
     // Update is for graphics and input whereas FIXEUPDATE is for physica
@@ -32,4 +37,5 @@ public class rigibidoe : MonoBehaviour
         rbody.velocity = transform.TransformDirection(inputVector) * moveSpeed;
 
     }
+
 }

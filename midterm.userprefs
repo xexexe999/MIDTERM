@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SCRIPT\LightFlickers.cs">
+    <Files>
+      <File FileName="Assets\Materials\mirrorTrigger.cs" Line="32" Column="25" />
+      <File FileName="Assets\SCRIPT\SoapppTrigger.cs" Line="15" Column="33" />
+      <File FileName="Assets\SCRIPT\GameManager.cs" Line="28" Column="19" />
+      <File FileName="Assets\SCRIPT\theend.cs" Line="10" Column="3" />
+      <File FileName="Assets\SCRIPT\LightFlickers.cs" Line="13" Column="48" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
